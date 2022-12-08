@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        padding: 0px;
+        margin: 0px;
+        font-family: sans-serif;
+        box-sizing: border-box;
+    }
+
+    body {
+
+        background: white;
+
+    }
+
+    .navbar p span {
+        color: rgb(255, 230, 12);
+        font-size: 20px;
+    }
+
+    .navbar p {
+        color: white;
+        font-size: 20px;
+    }
+
+
+    .navbar {
+        width: 70%;
+        background: rgb(5, 57, 5);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        padding: 10px;
+
+
+
+    }
+
+    .navbar ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 10px;
+
+
+
+
+
+    }
+
+    .navbar ul li a {
+        text-decoration: none;
+        color: rgb(248, 248, 248);
+
+
+
+
+    }
+
+    .form {
+        background: rgba(44, 183, 74, 0.7);
+
+        width: 60%;
+
+        padding: 15px;
+        margin: auto;
+
+    }
+
+    .form input {
+        width: 100%;
+        height: 25px;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    #size {
+        width: 100%;
+        height: 50px;
+        padding: 10px;
+        border-radius: 5px;
+
+    }
+
+    .form p {
+        font-weight: bold;
+    }
+
+    .form label {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .col {
+        width: 100%;
+        background: rgb(56, 115, 19);
+        text-align: center;
+        border-radius: 5px;
+        color: white;
+        padding: 10px;
+        margin: 5px;
+    }
+</style>
+
+<body>
+    <div class="navbar">
+        <p>Health <span>Essentials</span></p>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tip.html"> Tip</a></li>
+            <li><a href=""> Get In Touch</a></li>
+            <li><a href=""> Email Us</a></li>
+        </ul>
+
+    </div><br>
+    <div class="form">
+        <h2>Get In Touch!</h2><br>
+        <p>Use the contact form below to get in touch.</p><br><br>
+        <form>
+            <label>Name:</label><br>
+            <input type="text" name="name" placeholder="Your name"><br><br>
+            <label>Email Address:</label><br>
+            <input type="Address" name="Address" placeholder="Your @email.com"><br><br>
+            <label>Website:</label><br>
+            <input type="text" name="website"><br><br>
+            <label>Subject:</label><br>
+            <input type="Address" name="Address" placeholder="I just want to say hello" id="bold"><br><br>
+            <label>message:</label><br>
+            <textarea name="" id="size" cols="30" rows="10" placeholder="Write your message here please"></textarea><br>
+            <div class="col">
+                <p>Send away!</p>
+            </div>
+
+
+        </form>
+    </div><br>
+    <div>
+        <iframe width="900" height="400" frameborder="0"
+            src="https://www.bing.com/maps/embed?h=400&w=500&cp=6.500899137995958~-10.250244140625&lvl=8&typ=d&sty=r&src=SHELL&FORM=MBEDV8"
+            scrolling="no">
+        </iframe>
+        <div style="white-space: nowrap; text-align: center; width: 900px; padding: 6px 0;">
+            <a id="largeMapLink" target="_blank"
+                href="https://www.bing.com/maps?cp=6.500899137995958~-10.250244140625&amp;sty=r&amp;lvl=8&amp;FORM=MBEDLD">View
+                Larger Map</a> &nbsp; | &nbsp;
+            <a id="dirMapLink" target="_blank"
+                href="https://www.bing.com/maps/directions?cp=6.500899137995958~-10.250244140625&amp;sty=r&amp;lvl=8&amp;rtp=~pos.6.500899137995958_-10.250244140625____&amp;FORM=MBEDLD">Get
+                Directions</a>
+        </div>
+    </div>
+</body>
+
+</html>
